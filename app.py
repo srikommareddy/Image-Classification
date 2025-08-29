@@ -15,7 +15,7 @@ import numpy as np
 # ------------------------------
 @st.cache_resource  # cache so it doesn’t reload every time
 def load_cifar10_model():
-    model = load_model("models/cifar10_cnn.h5")  # adjust path if needed
+    model = load_model("cifar10_cnn.h5")  # adjust path if needed
     return model
 
 model = load_cifar10_model()
